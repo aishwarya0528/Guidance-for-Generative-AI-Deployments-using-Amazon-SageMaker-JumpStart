@@ -33,7 +33,7 @@ max_capacity = 1
 
 # region
 # The AWS region to deploy this solution into.
-region = "eu-central-1"
+region = "us-west-2"
 
 # repository_name
 # The name of the CodeCommit repository to be created.
