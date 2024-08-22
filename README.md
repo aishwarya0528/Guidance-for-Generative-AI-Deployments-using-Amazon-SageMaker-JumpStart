@@ -40,7 +40,7 @@ These instructions have been tested on Linux and Mac. In case you are using Wind
     ```bash
     export REPOSITORY_NAME=StableDiffusionService
     export REPOSITORY_BRANCH=main
-    export AWS_REGION=eu-central-1
+    export AWS_REGION=us-west-2
     export INITIAL_DEPLOY=yes
     ```
     The `INITIAL_DEPLOY` environment variable takes care that the CDK is only working with the stacks and resources required for deploying the solution repository and a minimal pipeline. This eliminates the need of having Docker installed and running on the developer's machine as well as decreasing the runtime of CDK commands there. We leave the heavy lifting to the execution within the AWS CodePipeline CodeBuild steps later.
